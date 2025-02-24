@@ -12,7 +12,7 @@ const objectA2: Record<string, unknown> = { //A chave seria uma string, e o unkn
 }
 
 objectA2.keyA = "Modify value";
-objectA.keyB = "Modify value";
+objectA2.keyB = "Modify value";
 objectA2.keyC = "Modify value"; //Dessa forma o typescript não conhece mais a forma do meu objeto, não terei mais autocomplete, não é seguro
 
 
