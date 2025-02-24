@@ -6,13 +6,13 @@ export function concatStrings(...args: string[]): string { //Array de strings. P
     return args.reduce((ac, value) => ac + value);
 };
 
-export function toUpperCse(...args: string[]): string[] {
+export function toUpperCase(...args: string[]): string[] {
     return args.map((value) => value.toUpperCase());
 }
 
 const result = multiplyArgs(1, 2, 3);
 const concat = concatStrings('a', 'b', 'c');
-const upper = toUpperCse('a', 'b', 'c');
+const upper = toUpperCase('a', 'b', 'c');
 
 console.log(result);
 console.log(concat);
