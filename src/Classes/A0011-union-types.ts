@@ -10,3 +10,4 @@ console.log(addConcat('10', 20));
 console.log(addConcat(true, true));
 
 //Você utiliza quando você quer um tipo ou outro, ou quantos tipos eu quiser.
+ 
