@@ -24,3 +24,9 @@ function showName(obj: PersonOrAnimal): void {
         return;
     }
 }
+
+showName(new Student("Pedro"))
+showName({ type: 'animal', color: 'blue'});
+
+//Tudo que a gente checka para refinar um tipo é chamado de type-guard
+//Muito usado para chamadas de API que não sabemos o que estamos recebendo
